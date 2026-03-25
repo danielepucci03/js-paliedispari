@@ -7,14 +7,14 @@ function palindroma (parola) {
 
 
     // Inverto la parola
-    const parolaInvertita = parola.reverse('')
+    const parolaInvertita = parola.split('').reverse().join('')
 
 
     // Confronto
     if (parola === parolaInvertita) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
         }
 
 }
@@ -26,6 +26,5 @@ if (palindroma(input)) {
     console.log('è palindroma');
 } else {
     console.log('non è palindroma');
-    
 }
 
