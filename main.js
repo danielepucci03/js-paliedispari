@@ -19,3 +19,13 @@ function palindroma (parola) {
 
 }
 
+// Chiedi all'utente di inserire una parola
+const input = prompt ('Inserisci una parola')
+
+if (palindroma(input)) {
+    console.log('è palindroma');
+} else {
+    console.log('non è palindroma');
+    
+}
+
