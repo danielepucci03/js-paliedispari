@@ -21,3 +21,17 @@ const somma = numeroUtente + numeroComputer;
 
 // Controllo risultato
 const risultatoPari = isPari(somma);
+
+// OUTPUT
+console.log("Numero utente:", numeroUtente);
+console.log("Numero computer:", numeroComputer);
+console.log("Somma:", somma);
+
+if (
+  (risultatoPari && scelta === "pari") ||
+  (!risultatoPari && scelta === "dispari")
+) {
+  console.log("Hai vinto!");
+} else {
+  console.log("Ha vinto il computer!");
+}
