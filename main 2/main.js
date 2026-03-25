@@ -12,3 +12,6 @@ function isPari(numero) {
 // INPUT UTENTE
 const scelta = prompt("Scegli: pari o dispari").toLowerCase();
 const numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
+
+// Numero computer
+let numeroComputer = generaNumeroRandom();
