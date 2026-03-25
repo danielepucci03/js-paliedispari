@@ -14,4 +14,10 @@ const scelta = prompt("Scegli: pari o dispari").toLowerCase();
 const numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
 // Numero computer
-let numeroComputer = generaNumeroRandom();
+const numeroComputer = generaNumeroRandom();
+
+// Somma
+const somma = numeroUtente + numeroComputer;
+
+// Controllo risultato
+const risultatoPari = isPari(somma);
