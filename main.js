@@ -6,4 +6,8 @@ function palindroma (parola) {
 }
 
 
+//Inverto la parola
+const parolaInvertita = parola.reverse('')
+
+
 
